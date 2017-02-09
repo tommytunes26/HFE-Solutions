@@ -1,0 +1,181 @@
+html, body {
+    width: 100%;
+    max-width: 1600px;
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+html {
+    background-color: #7b7b7b;
+}
+body {
+    background-color: #fff;
+}
+
+nav {
+    background-color: hsla(0, 12%, 98%, 0.9) !important;
+    border-bottom: 5px solid #2779f4;
+    margin-bottom: 0 !important;
+}
+
+nav:after {
+    content: "";
+    background-image: url("../images/bgCover.jpg") !important;
+    opacity: .5;
+    top: 0; left: 0; bottom: 0; right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.uk-logo {
+    margin-top: 6px;
+}
+
+.search img {
+    width: 30px;
+}
+
+.uk-nav {
+    font-weight: bold;
+}
+
+.uk-active > a {
+    color: #d10000 !important;
+}
+
+.red {
+    border-top: 5px solid red;
+}
+
+.yellow {
+    border-top: 5px solid yellow;
+}
+
+.nav-link:hover, .drop-list > a:hover {
+    color: #2779f4 !important;
+}
+
+.drop-list > a:after {
+    content: "\25bc";
+    padding-left: 5px;
+}
+
+.title-image {
+    width: 100%;
+    height: 450px;
+    background-attachment: fixed;
+}
+
+.fixed-text {
+    text-align: center;
+    height: 370px;
+    line-height: 350px;
+    font-family: "Fjalla One, Sans Serif";
+    font-size: 10rem;
+    color: red;
+    text-shadow: 0 0 20px #000000;
+    display: none;
+}
+
+#pt3 {
+}
+
+.fixed-text span {
+    color: #fff;
+}
+
+.small-span {
+    line-height: 370px;
+    font-size: .4em;
+    margin-top: 500px;
+    letter-spacing: .1em;
+    display: none;
+}
+
+.fixed-text hr {
+    margin: -160px;
+    visibility: hidden;
+}
+
+.divider {
+    width: 100%;
+    margin-top: -20px;
+    background: #0054d1 url(../images/divider-bg.jpg) no-repeat center top;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 5px #434242;
+}
+
+.divider-red {
+    margin-top: -20px;
+    background: #0054d1 url(../images/divider-red-bg.jpg) no-repeat center top;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 5px #434242;
+}
+
+.divider-yellow {
+    margin-top: -20px;
+    background: #0054d1 url(../images/divider-yellow-bg.jpg) no-repeat center top;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 5px #434242;
+}
+
+.divider .uk-divider-icon, .divider-red .uk-divider-icon, .divider-yellow .uk-divider-icon {
+    padding-bottom: 50px;
+}
+
+.divider h3, .divider-red h3, .divider-yellow h3 {
+    color: #fff;
+    text-align: center;
+    font-family: "Fjalla One, Sans Serif";
+    font-size: 2em;
+    margin-bottom: -20px;
+    padding-top: 20px;
+}
+
+.services {
+    padding: 20px;
+    box-shadow: 0 0 10px -10px #000;
+}
+
+h3 button {
+    box-shadow: 0 0 5px #000;
+}
+
+.footer {
+    padding: 30px;
+    padding-bottom: 50px;    
+}
+
+.bxslider {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .5em;
+}
+
+/*Mobile screens-------------------------*/
+
+@media all and (max-width: 625px) {
+
+    .title-image div {
+        font-size: 8em;
+    }
+    
+    .title-image .small-span {
+        font-size: .4em;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

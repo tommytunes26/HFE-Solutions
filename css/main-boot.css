@@ -1,0 +1,153 @@
+html, body {
+    width: 100%;    
+}
+
+/*Navbar------------------------*/
+
+nav .container-fluid {
+    background-color: hsla(0, 12%, 98%, 0.6) !important;
+    margin-bottom: -1px;
+    border-bottom: 6px solid #2779f4;
+}
+
+nav .navbar-header :after {
+    content: "";
+    background-image: url("../images/bgCover.jpg") !important;
+    position: absolute;
+    
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: -1;
+}
+
+.logo {
+    margin-top: 6px;
+}
+
+nav li, nav .form-group {
+    margin-top: 9px;
+}
+
+nav button {
+    margin-top: 10px;
+}
+
+.navbar-toggle {
+    margin-top: 18px;
+}
+
+.navbar-nav .open .dropdown-menu {
+    background-image: none;
+    background-color: #fff;
+    margin-top: 20px; 
+    
+}
+
+.search img {
+    width: 30px;
+}
+
+.nav {
+    font-weight: bold;
+}
+
+.active > a {
+    color: #d10000 !important;
+    background-color: transparent !important;
+}
+
+.red {
+    border-top: 5px solid red;
+}
+
+.yellow {
+    border-top: 5px solid yellow;
+}
+
+.nav > li > a:hover {
+    color: #2779f4 !important;
+}
+
+/*Body--------------------------*/
+
+.title-image {
+    background-image: url("../images/circut-image.jpg");
+    width: 100%;
+    height: 450px;
+    margin-bottom: 20px;    
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+.divider {
+    margin-top: -20px;
+    background: #0054d1 url(../images/divider-bg.jpg) no-repeat center top;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 5px #434242;
+}
+
+.divider-icon {
+    border-top: 1px solid #fff;
+    padding-bottom: 3em;
+}
+
+.divider-red {
+    margin-top: -20px;
+    background: #0054d1 url(../images/divider-red-bg.jpg) no-repeat center top;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 5px #434242;
+}
+
+.divider h3, .divider-red h3 {
+    color: #fff;
+    text-align: center;
+    font-family: "Fjalla One, Sans Serif";
+    font-size: 2em;
+    margin-bottom: -20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.card-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 332px;
+    padding: .5em;
+    margin-bottom: 1em;
+    background-color: #f5ece1;
+    box-shadow: .2em .2em .7em #808080;
+}
+
+
+
+
+.services {
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    box-shadow: 0 0 10px -10px #000;
+}
+
+h3 button {
+    box-shadow: 0 0 5px #000;
+}
+
+.footer {
+    margin: 20px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
